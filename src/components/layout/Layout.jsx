@@ -13,7 +13,7 @@ const Layout = () => {
       <ScrollToTop />
       <ScrollProgressBar />
       <Navbar />
-      <main className="flex-1 pt-[76px]">
+      <main className="flex-1 pt-[88px]">
         <Outlet />
       </main>
       <Footer />

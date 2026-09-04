@@ -59,8 +59,8 @@ const Navbar = () => {
           border-white/20 bg-[#0B1220]/90 backdrop-blur-3xl
           ${
             scrolled
-              ? "h-[64px] sm:h-[70px] rounded-none border-b bg-[#0B1220]/95 px-6 sm:px-12 shadow-[0_15px_45px_rgba(0,0,0,0.5)]"
-              : "h-[72px] sm:h-[78px] rounded-full border px-4 sm:px-6 lg:px-8 shadow-[0_10px_35px_rgba(0,0,0,0.35)]"
+              ? "h-[74px] sm:h-[82px] rounded-none border-b bg-[#0B1220]/95 px-6 sm:px-12 shadow-[0_15px_45px_rgba(0,0,0,0.5)]"
+              : "h-[84px] sm:h-[92px] rounded-full border px-4 sm:px-6 lg:px-8 shadow-[0_10px_35px_rgba(0,0,0,0.35)]"
           }`}
         >
           {/* Logo Brand Zone */}
@@ -73,7 +73,7 @@ const Navbar = () => {
               src={logo}
               alt="Codefloor It Tech LLP"
               className={`w-auto transition-all duration-500 ease-out group-hover:scale-105 ${
-                scrolled ? "h-9 sm:h-11" : "h-10 sm:h-12 lg:h-14"
+                scrolled ? "h-12 sm:h-16" : "h-16 sm:h-[72px] lg:h-20"
               }`}
             />
 
