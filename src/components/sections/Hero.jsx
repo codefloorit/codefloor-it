@@ -253,7 +253,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  BookOpen,
   Coins,
   ChevronLeft,
   ChevronRight,
@@ -287,24 +286,6 @@ const HeritageHeroSlider = () => {
         "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=2000&q=80",
       stats: { value: "100%", label: "System Operational Integrity" },
       ventureLink: "https://www.alysianbusiness.com",
-    },
-    {
-      id: "accountingwaale",
-      badge: "Fiscal Compliance & Governance",
-      title: "AccountingWaale",
-      tagline: "Precision Bookkeeping, Auditing & Financial Oversight",
-      objectText:
-        "Delivering end-to-end corporate accounting, GST, income tax, payroll, and statutory audit protocols alongside practical skill enablement frameworks.",
-      highlights: [
-        "Comprehensive GST & Income Tax Advisory",
-        "Corporate Audit & Payroll Management",
-        "Financial Skill Development & Professional Training",
-      ],
-      icon: BookOpen,
-      bgImage:
-        "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=2000&q=80",
-      stats: { value: "Zero", label: "Compliance Risk Margin" },
-      ventureLink: "https://www.accountingwaale.com",
     },
     {
       id: "bharatfundaxis",
